@@ -1,0 +1,22 @@
+table, th, td{
+    text-align: center;
+}
+thead {
+    color: #337AB7;
+}
+
+.handPointer {
+    cursor: pointer;
+  }
+:hover{
+    text-decoration: none;
+}
+.showDetail{
+      background-color: #ddd;    
+  }
+
+@media (max-width: 900px) { 
+.profession{
+    display:none;
+}
+ }

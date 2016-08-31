@@ -1,0 +1,17 @@
+<my-spinner *ngIf='showSpinner'></my-spinner>
+    <table class='table' *ngIf='children && children.length && !showSpinner'>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Year of birth</th>
+          <th>Mother</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let child of children'>
+          <td>{{ child.Name }}</td>
+          <td>{{ child.YearOfBirth }}</td>
+          <td>{{ child.Mother }}</td>
+        </tr>
+      </tbody>
+    </table>
